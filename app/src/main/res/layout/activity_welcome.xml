@@ -1,0 +1,53 @@
+<!-- res/layout/activity_welcome.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#87CEEB">
+
+    <TextView
+        android:layout_width="328dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="120dp"
+        android:text="Enter your name:"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/playerNameEditText"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Your Name"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:text="Choose a category:"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/category_array"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/startQuizButton"
+        android:layout_width="196dp"
+        android:layout_height="68dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="Start Quiz"
+        android:textSize="20sp" /> <!-- Center the button both horizontally and vertically -->
+
+</LinearLayout>

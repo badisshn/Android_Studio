@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyQuizApplication</string>
+
+<string-array name="category_array">
+    <item>Histoire</item>
+    <item>Géographie</item>
+    <item>Sport</item>
+    <item>Politique</item>
+    <item>Technologie</item>
+</string-array>
+</resources>
